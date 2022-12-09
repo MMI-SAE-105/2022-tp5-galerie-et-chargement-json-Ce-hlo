@@ -1,0 +1,76 @@
+.vrac {
+    "X" #000 #fff #fff 2px solid 0 0 0 0 0 100% 100% 100% 1rem 1rem 1rem 2px solid #fff 2rem 2rem 2rem 50% absolute auto background-color background-color block border border border-radius bottom center center color content cursor display display fixed font-family grid height height height left line-height margin max-width padding place-content pointer position position rgba(0, 0, 0, 0.9) right right sans-serif text-align top top width width
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* Sit on top of the page content */
+    /* Full width (cover the whole page) */
+    /* Full height (cover the whole page) */
+    /* Stay at the top */
+    /* Stay at the left */
+    /* Stay at the right */
+    /* Stay at the bottom */
+    /* Black background with opacity */
+    /* Add a pointer on hover */
+    /* Use a grid for easy centering */
+    /* Center vertically and horizontally */
+}
+
+.overlay::after {
+    content: "x";
+    color: white;
+    background-color: black;
+    font-family:sans-serif ;
+    text-align: center;
+    line-height:  150%;
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border: white 2px solid;
+    border-radius: 50%;
+    /* Add content : "X" */
+    /* White text color */
+    /* Black background color */
+    /* Font family "sans-serif" */
+    /* Centered text */
+    /* Line height ( idem height ) */
+    /* Display as a block */
+    /* Position absolute */
+    /* 1rem from the top */
+    /* 1rem from the right */
+    /* 2rem width */
+    /* 2rem height */
+    /* White border of 2px */
+    /* Rounded border */
+}
+
+.overlay>figure {
+    margin: 0;
+    padding: 1rem;
+    border: white 2px solid;
+    /* No margin */
+    /* 1rem padding */
+    /* White border of 2px */
+}
+
+.overlay>figure>img {
+    width: 100%;
+    height: auto;
+    /* Max width 100% for responsive image */
+    /* Height auto for keeping the ratio */
+}
